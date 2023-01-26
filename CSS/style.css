@@ -1,0 +1,177 @@
+body, html { 
+    margin: 0px; 
+    padding:0; 
+    height:100%; 
+    background-color: black;
+
+}
+  .contenedor { 
+    min-height:100%; 
+    position:relative; 
+  } 
+
+
+
+.area {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  margin-top: 1%;
+  font-size: 6.5em;
+  color: #fff;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+main{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    background-color: grey;
+    width: 70%;
+    height: 70%;
+    opacity: 0.1;
+}
+
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+  }
+  
+
+  .neon {
+    position: absolute;
+    left: 39%;
+    font-family: neon;
+    color: #4261fb;
+    font-size: 2vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #4261fb;
+  }
+  
+
+  .neon {
+    animation: neon 1s ease infinite;
+    -moz-animation: neon 1s ease infinite;
+    -webkit-animation: neon 1s ease infinite;
+  }
+  
+  @keyframes neon {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #4261fb, 0 0 3vw #4261fb, 0 0 10vw #4261fb, 0 0 10vw #4261fb, 0 0 .4vw #4261fb, .5vw .5vw .1vw #4261fb;
+      color: #ffffff;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #4261fb;
+      color: #4261fb;
+    }
+  }
+  
+  .planb{
+    position: absolute;
+    background: grey;
+    left: 20%;
+    top: 38%;
+    width: 20%;
+    height: 45%;
+    border-radius: 4%;
+  }
+  .tit{
+    text-align: center;
+    color: black;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+  
+  .planp{
+    position: absolute;
+    background: grey;
+    left:59%;
+    top: 38%;
+    width: 20%;
+    height: 45%;
+    border-radius: 4%;
+  }
+  .tit2{
+    text-align: center;
+    color: black;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+  
+  .pr {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 0.5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #209113, 0 0 40px #209113, 0 0 50px #209113, 0 0 60px #209113, 0 0 70px #209113;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2cc240, 0 0 40px #2cc240, 0 0 50px #2cc240, 0 0 60px #2cc240, 0 0 70px #2cc240, 0 0 80px #2cc240;
+    }
+  }
+
+  .tex{
+
+    
+    text-align: justify;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 6%;
+    font-size: 1.2em;
+  }
+
+  .pr2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow1 1s ease-in-out infinite alternate;
+    -moz-animation: glow1 1s ease-in-out infinite alternate;
+    animation: glow1 0.5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #df0303, 0 0 40px #df0303, 0 0 50px #df0303, 0 0 60px #df0303, 0 0 70px #df0303;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #e22d2d, 0 0 40px #e22d2d 0 0 50px #e22d2d, 0 0 60px #e22d2d, 0 0 70px #e22d2d, 0 0 80px #e22d2d;
+    }
+  }
+
+  img{
+
+    position: absolute;
+    left: 44%;
+    top: 60%;
+    width: 10%;
+  }
